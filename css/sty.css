@@ -1,0 +1,102 @@
+body
+{	
+	background-color: lightgrey;
+	 font-family: sans-serif;
+	 margin:0;
+	 padding: 0;
+}
+#container
+{
+	width:700px;
+	height: 600px;
+	margin: 0 auto;
+	font-size: 20px;
+	color: #666;
+}
+.table
+{
+	text-align: center;
+	margin:0 auto;
+	padding:3px;
+	width:100%;
+	overflow-x: auto;
+}
+tr
+{
+	height:50px;
+}
+h2
+{    
+	text-align: center;
+	font-weight: bold;
+	 font-size: 35px;
+	 color:#e6009d;
+}
+.field input
+{
+	width:200px;
+	padding: 10px;
+	font-size: 15px;
+	color: #666;
+	box-shadow: 1px 1px 0.5px gray;
+}
+.gender input
+{
+	width:20px;
+
+}
+.e-mail input
+{
+	width: 200px;
+	padding: 10px;
+	color: #666;
+	font-size: 15px;
+	box-shadow: 1px 1px 0.5px gray;
+}
+textarea
+{
+	font-size: 18px;
+	color: #666;
+	width: 300px;
+	height: 100px;
+	max-width: 300px;
+}
+.submit input
+{
+	width: 80px;
+	height: 30px;
+	background-color: #e6009d;
+	text-align: center;
+	color: white;
+	font-weight: bold;
+}
+p
+{
+	text-align: center;
+}
+label
+{
+	 margin: 30px;
+}
+.field input:hover, .location input:hover, .sub input:hover, textarea:hover,table:hover
+{
+	box-shadow: 1px 1px 4px gray;
+} 
+.footer2{
+    float: right;
+ 	background-color:#e6009d;
+    font-size:20px;
+    text-align: center;
+    color:white;
+    
+ }
+.footer1
+{
+    text-align:center;
+    background-color: lightgrey;
+    float: center;
+    text-align: center;
+    font-style: sans-serif;
+    size: 12px;
+    color: darkgrey;
+}

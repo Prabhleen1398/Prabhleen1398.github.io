@@ -1,0 +1,272 @@
+body{
+	font: 15px/1.5 Arial,Sans-serif;
+	padding: 0;
+	margin: 0;
+    
+}
+
+.container{
+	width: 80%;
+	padding: 0px;
+	margin:auto;
+	overflow:hidden;
+}
+
+.colorbg1
+{
+    background-color: black;
+    opacity: 0.8;
+}
+
+.colorbg2
+        {
+        background-color: blue;
+        opacity: 0.8;
+        }
+
+.colorbg3
+        {
+        background-color: green;
+        opacity: 0.8;
+        }
+
+header{
+	background-color: black;
+	color: white;
+	padding: 0;
+	border-bottom:#e6009d  2px solid;
+	min-height: 80px;
+}
+
+header a{
+	color:white;
+	padding: 10px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+
+
+header li{
+	display:inline;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	font-weight: bold;
+    
+}
+
+header .heading{
+    font-size: 45px;
+	padding-bottom:0px; 
+	float:left;
+}
+header nav{
+    float: right;
+	padding-top:30px;
+    font-size: 20px;
+}
+
+header .heading{
+    padding-bottom:0px; 
+    float:left;
+
+}
+.heading h2{
+    font-size: 35px;
+	padding:0;
+	margin:0;
+}
+
+header  #tag,#tag1{
+	color:#e6009d;
+}
+#tag1:hover{
+	color:orange;
+}
+
+.show{
+	min-height: 400px;
+	background-image: url("../image/b4.jpg");
+    width: 100%;
+    height: auto;
+	overflow:hidden;
+	color:white;
+	text-align:center;
+
+    }
+
+ .show h2{
+ 	font-size: 60px;
+ 	font-family: sans-serif;
+ }   
+ .show p{
+ 	font-size:20px;
+ 	font-weight: bold;
+ 	font-family: sans-serif;
+ }
+
+ .show1{
+        min-height: 400px;
+        background-image: url("../image/b5.jpg");
+        width: 100%;
+        height: auto;
+        overflow:hidden;
+        color:white;
+        text-align:center;
+        }
+
+ .show1 h2{
+        font-size: 60px;
+        font-family: sans-serif;
+        }   
+.show1 p{
+        font-size:20px;
+        font-weight: bold;
+        font-family: sans-serif;
+        }
+.show2{
+    min-height: 400px;
+    background-image: url("../image/b6.jpg");
+    width: 100%;
+    height: auto;
+    overflow:hidden;
+    color:white;
+    text-align:center;
+    }
+
+.show2 h2{
+         font-size: 60px;
+         font-family: sans-serif;
+         }   
+.show2 p{
+        font-size:20px;
+        font-weight: bold;
+        font-family: sans-serif;
+        }
+ /* this is contact css*/
+ .subscribe{
+ 	 min-height: 70px;
+     background-color: grey;
+     color:white;
+     width: 90% auto;
+
+ }
+ .subscribe h3{
+ 	  float: left;
+      font-size: 30px;
+   
+ }
+
+ .subscribe a{
+ 	float:right;
+    text-align: center;
+    margin-top: 20px;
+  }
+
+ .subscribe .buttonedit{
+ 	height:30px;
+ 	padding: 0 10px 0 10px;
+    margin-top: 0px;
+ 	background-color:#e6009d;
+ 	color:white;
+ 	border:0;
+ }
+ .buttonedit input
+ {
+    text-align: center;
+    font-style: sans-serif;
+ }
+.footer1
+{
+    text-align:center;
+    background-color: white;
+    float: center;
+    text-align: center;
+    font-style: sans-serif;
+    size: 12px;
+    color: darkgrey;
+}
+
+ .h3
+ {
+    text-align: center;
+ }
+
+ .box img{
+ 	width: 120px;
+ 	height: 120px;
+ }
+ .box2 img{
+    width: 120px;
+    height: 120px;
+ }
+.footer2{
+    float: right;
+ 	background-color:#e6009d;
+    font-size:20px;
+    text-align: center;
+    color:white;
+    
+ }
+.abt
+ {
+    width:700px;
+    height: 600px;
+    margin: 0 auto;
+    font-size: 20px;
+    color: #e6009d;
+    text-align: center;
+ }
+ .serve
+ {
+    width:700px;
+    height: 300px;
+    margin: 0 auto;
+    font-size: 20px;
+    color: #e6009d;
+    text-align: center;
+ }
+
+/* responsive */
+@media(max-width: 780px){
+	header .heading,
+    header nav,
+   .subscribe h3,
+    .subscribe a,
+     {
+     	float:none;
+     	text-align: center;
+     	width:100%;
+
+     }
+     .subscribe a .buttonedit,{
+     	width:100%;
+     	display:block;
+     }
+     @media(max-width:368px){
+
+          body{
+          	font-size:12px;
+          }
+         
+     }
+    
+    /* extra stuff*/
+    .help{
+    	width:80%;
+    	margin:auto;
+    }
+
+    .help h1{
+    	font-family:sans-serif;
+    	color:black;
+         text-align: center;
+    }
+     
+
+     .help p{
+     	font-family: sans-serif;
+     	color:#e6009d;
+     	font-size:15px;
+       text-align: center;
+     }

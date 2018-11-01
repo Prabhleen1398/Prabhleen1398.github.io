@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registration form</title>
+	<link rel="stylesheet" type="text/css" href="./css//sty.css">
+  <script src="https://use.fontawesome.com/7112b828fa.js"></script>
+	<script>
+    function myFunction() {
+      var x, text;
+
+      // Get the value of the input field with id="numb"
+    x = document.getElementById("mobi").value;
+
+    // If x is Not a Number or less than one or greater than 10
+    if (isNaN(x) || x < 1 || x > 10) {
+        alert("Input not valid");
+    text= document.getElementById("fname").value;
+    if (text==null || text==" ")
+    {
+      alert("Enter Correct Name");
+    }
+}
+</script>
+</head>
+<body>
+  <div id="container">
+  	<h2>Registration form</h2>
+  	<form id="form"  onsubmit="return subfun()" method="post">
+      <table class="table">
+        <tr>
+  		<td class="field">
+               <label for="fname" >First Name</label></td>
+  		 <td>	<input type="text" id="fname" name="fname" required placeholder="First name"></td>
+  		</tr>
+      <tr>
+  		<td class="field">
+               <label for="lname">Last Name</label></td>
+  			 <td><input type="text" id="lname" name="lname" required placeholder="Last name"></td>
+
+  		</tr>
+      <tr>
+  		<td class="field">
+        <label for="pass">Password</label></td>
+  			<td><input type="password" id="pass" name="pass" required placeholder="***"></td>
+  			
+  		</tr>
+      <tr>
+  		<td class="field">
+         <label for="fname">Contact No</label></td>
+  			 <td><input type="text" id="mobi" name="mobi" required placeholder="990011-8876"></td>
+  		
+  		</tr>
+      <tr>
+  		<td class="gender">
+         <label>Gender</label></td>
+  			<td><input type="radio" name="gender" id="" value="Male">Male
+  			<input type="radio" name="gender" id="" value="Female">Female
+  			<input type="radio" name="gender" id="" value="Other">Other</td>
+       
+  		</tr>
+      <tr>
+        
+  		<td class="e-mail">
+       <label>Email id</label></td>
+  			 <td><input type="e-mail" id="e-mail" name="e-mail" required placeholder="abc@gmail.com">
+  		</td>
+    </tr>
+    <tr>
+  		<td class="msg">
+        <label>Leave your comment here</label></td>
+  			<td><textarea name="msg" value="msg" placeholder="Type your msg"></textarea></td>
+      
+  	</tr>
+    <tr class="submit">
+      <td colspan="2">
+        <input type="submit" name="submit" value="submit" onclick="myFunction();">
+      </td>
+    </tr>
+  	</table> 
+  	</form>
+    <footer class="footer1">
+  <span><a href="#"><i class="fa fa-facebook fa-3x" aria-hidden="true"></i></a></span>
+  <span><a href="#"><i class="fa fa-instagram fa-3x" aria-hidden="true"></i></a></span>
+  <p>Follow us for more updates</p>
+</footer>
+    <footer id="footer">
+     <div class="footer2">Furnishing House &copy; 2017</div>
+ </footer>
+
+  </div>
+</body>
+</html>
